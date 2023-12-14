@@ -1,0 +1,11 @@
+#Rey{color: blueviolet;}
+#Uriel {color: aqua;}
+.CH35{color: blue;}
+
+/* Modificación de 3er parrafo de manera externa */
+.estiloExterno {background-color: beige; border-style: double; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+#titulo{color: rgb(0, 0, 0);}
+#párrafo{color: rgb(31, 38, 133);}
+#resaltado{font-style: italic;}
+
+div{width: 200; height: 200;margin: 20px 50px;padding: 30px;border: solid seashell;}

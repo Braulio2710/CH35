@@ -1,0 +1,254 @@
+/* body{
+    background-color: red;
+} */
+
+.desktop {
+    background-color: #F4F1FF;
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.section2{
+    background: linear-gradient(90deg, rgba(180, 146, 253, 0.30) 0%, rgba(173, 78, 245, 0.95) 100%);
+    position: fixed;
+    width: 587px;
+    height: 1032px;
+    left: 853px;
+}
+#img-section2{
+    position: fixed;
+    top: 259px;
+    left: 970px;
+    width: 407px;
+    height: 505px;
+    flex-shrink: 0;
+}
+
+.form-box{
+    position: fixed;
+    left: 153px;
+    top: 144px;
+    width: 567px;
+    height: 734px;
+    flex-shrink: 0;
+    border: 0px solid #D1D2FA;
+    box-shadow: 20px 20px 60px 0px rgba(94, 94, 94, 0.15), -20px -20px 60px 0px rgba(94, 94, 94, 0.15);
+}
+
+.Title-CreaTuCuenta{
+    position: fixed;
+    top: 217px;
+    left:216px;
+    width: 400px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #1D1D1D;
+    font-family: Montserrat Alternates;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.buttons{
+    position: fixed;
+    width: 205px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: solid 1px #1D1D1D;
+}
+
+#google-button{
+    top: 296px;
+    left: 216px;
+}
+
+#google-logo{
+    position: fixed;
+    width: 40px;
+    height: 41px;
+    flex-shrink: 0;
+    top: 311px;
+    left: 232px;
+}
+#use-google{
+    position: fixed;
+    top: 318px;
+    left: 281px;
+    width: 140px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #1D1D1D;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+#apple-button{
+    top: 296px;
+    left: 463px;
+}
+#apple-logo{
+    position: fixed;
+    top: 304px;
+    left: 485px;
+    width: 40px;
+    height: 47.619px;
+    flex-shrink: 0;
+    color: #000000;
+}
+#use-apple{
+    position: fixed;
+    top: 318px;
+    left: 535px;
+    width: 205px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #1D1D1D;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#or{
+    position: fixed;
+    top: 375px;
+    left: 431px;
+    width: 54px;
+    height: 44px;
+    flex-direction: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.line{
+    width: 205px;
+    height: 1px;
+    background-color: #6667B0;
+}
+#line-1{
+    position: fixed;
+    top: 391px;
+    left: 216px;
+}
+#line-2{
+    position: fixed;
+    top: 391px;
+    left: 463px;
+}
+
+.label{
+    position: fixed;
+    width: 205px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #1D1D1D;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#label-email{
+    top: 426px;
+    left: 216px;
+}
+#label-password{
+    top: 547px;
+    left: 216px;
+}
+
+.form{
+    position: fixed;
+    left: 216px;
+    width: 452px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #1D1D1D;
+    background: rgba(244, 241, 255, 0.00);
+}
+#form-email{
+    top: 458px; 
+}
+#form-password{
+    top: 579px;
+}
+.form-instruction{
+    position: fixed;
+    left: 243px;
+    display: flex;
+    width: 199px;
+    height: 37px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #6667B0;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#intruction-email{
+    top: 473px;
+}
+#intruction-password{
+    top: 591px;
+}
+.login-button{
+    position: fixed;
+    top: 697px;
+    left: 216px;
+    flex-shrink: 0;
+    width: 452px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #6B43FF;
+}
+#login-text{
+    position: fixed;
+    top: 701px;
+    left: 252px;
+    display: flex;
+    width: 381px;
+    height: 59px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F4F1FF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#already-account-text{
+    position: fixed;
+    top: 773px;
+    left: 353px;
+    display: flex;
+    width: 321px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #6B43FF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

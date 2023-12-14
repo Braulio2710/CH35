@@ -1,0 +1,6 @@
+/* Modificación de tabla de errores de nuestros nombres */
+
+.título{font-style: oblique; font-weight: 900;}
+.lista{font-size: small;text-align: center;}
+.correcto{background-color: rgb(22, 202, 22); font-family: Arial, 'Helvetica', sans-serif; color: greenyellow;}
+.incorrecto{background-color: red; font-family: monospace;font-style: italic; color: rgb(255, 166, 0);}

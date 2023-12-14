@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+
+
+
+
+</head>
+<body>
+
+
+<!--Un lorem es un texto genérico en latín y es una versión de un texto de Cicerón como para tener algo dentro del párrafo que creamos y poder visualizarlo y darle estilo. Para agregarlo sólo hay que escribir lorem y seleccionarlo-->
+<!--
+Tenemos 3 formas distintas para agregar estilos a un documento html
+
+*Inline (en línea)
+    Para trabajar con los estilos inline utilizamos la palabra reservada "style" y con esto ya le damos la instrucción de qué queremos añadir.
+    Tiene mayor jerarquía sobre la etiqueta style.
+
+-->
+
+    <h1>Inline</h1>
+    <p style="color: blueviolet; background-color: rgb(0, 255, 255); font-size: xx-large;" >En este párrafo modificamos "inline" sólo el fondo color aqua y el color violeta de las letras.</p>
+    <br>
+    <br>
+    <hr>
+
+
+<!--
+
+*Ahora utilizando la etiqueta "<style>":
+
+ Cuando utilizamos los estilos dentro de la etiqueta style, lo que hacemos es "separar" los estilos de etiqueta para mantener un código limpio y claro.
+ Coloqué etiqueta <style> luego body {} y dentro de las llaves coloco qué quiero cambiar del body.
+
+ Esta modificación afectará a todo el body, excepto a la modificación de style inline que ya tenga cada párrafo, ya que éstas tienen mayor jerarquía.
+
+-->
+    <style>
+    body{
+        background-image: url(https://www.freecodecamp.org/espanol/news/content/images/size/w2000/2022/06/kobu-agency-ipARHaxETRk-unsplash.jpg);
+    }
+    p{color: aqua; background-color: rgb(177, 87, 87);}
+    </style>
+
+    <h1>Etiqueta "style"</h1>
+    <p>Dentro de la etiqueta style englobé el body (para la imágen de fondo) y estos 3 párrafos.</p>
+    <p>En este párrafo ponemos estilo desde fuera del párrafo con una etiqueta style que incluya todo el body.
+    <p>Las condiciones que le dimos a la etiqueta style son la imagen de fondo a todo el body y el fondo café y la letra color aqua a estos dos párrafos.
+    </p>
+    <br>
+    <br>
+    <hr>
+
+<!--
+}Referencia a un documento de estilos externa (buena práctica).
+
+    -Tendremos un código más limpio y entendible
+    -Habrá velocidad de lectura en nuestra pág.
+    -Tendremos escalabilidad
+
+ Utilizar estilos de un documento externo significa que tendremos dos documento:
+ -Uno para html Index.html con la estructura y por otro lado el documento llamado style.css para darle estilo.
+ Para hacer esto tenemos que usar la etiqueta <link rel="stylesheet" href="./assets/style/style.css"> (esto lo colocamos hasta arriba para afectar a todo el documeto.)
+-->
+
+    <h1 class="estiloExterno" id="titulo">Referencia externa desde CSS</h1>
+    <p class="estiloExterno" id="párrafo">En <span id="resaltado">este párrafo</span> se modificó <span id="resaltado"> el color de la letra</span> y las palabras que están resaltadas en tipo itálika.</p>
+    <p class="estiloExterno" id="párrafo">Y en la <span id="resaltado">clase</span> que engloba tanto los dos párrafos como el título. <span id="resaltado">En los cuales se modificó el color del fondo, el borde y el estilo de la letra</span>.</p>
+    <br>
+    <br>
+    <hr>
+
+
+<!--
+Clases y ID
+EJEMPLO:
+Todos pertenecemos a la clase CH35
+Nuestro ID sería nuestro nombre completo
+
+Para poder identificar clases o ids en el archivo .css usamos los símbolos . y #
+La palabra reservada "class" (.)
+La palabra reservada "id" (#)
+
+-->
+
+    <div>
+    <h3>Ejemplo de clases e ids (además de un div para encerrar el texto en cajas)</h3>
+    <h4 class="CH35" id="Rey">Rey</h4>
+    <h4 class="CH35" id="Uriel">Uriel</h4>
+    <h4 class="CH35" id="Marco">Marco</h4>
+    </div>
+
+
+    <!--
+    MODELO DE CAJA: usando el div
+    El modelo de caja nos permite establecer el diseño de nuestros sitios web, ya que hace que nuestros elementos se presenten en fomrmas rectangulares y de esta forma podemos modificar el aspecto., tamaño, diseño, etc.
+
+    
+    -->
+    
+
+</body>
+</html>
