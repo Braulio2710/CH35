@@ -1,0 +1,28 @@
+Programación Orientada a Objetos (POO)
+    Beneficios de Programación Orientada a Objetos
+    -Reutilización del código.
+    -Convierte cosas complejas en estructuras simples reproducibles.
+    -Evita la duplicación de código.
+    -Permite trabajar en equipo gracias al encapsulamiento ya que minimiza la posibilidad de duplicar funciones cuando varias personas trabajan sobre un mismo objeto al mismo tiempo.
+    -Al estar la clase bien estructurada permite la corrección de errores en varios lugares del código.
+    -Protege la información a través de la encapsulación, ya que solo se puede acceder a los datos del objeto a través de propiedades y métodos privados.
+    -La abstracción nos permite construir sistemas más complejos y de una forma más sencilla y organizada.
+    - Ayuda a la reutilización del código
+    - Permite crear sistemas más complejos y ágiles
+    - Facilita el trabajo en equipo
+    - Se acompla bien a las bases de datos
+
+
+== 4 Principios de la Programación Orientada a Objetos ==
+    * La encapsulación
+       La encapsulación contiene toda la información importante de un objeto dentro del mismo y solo expone la información seleccionada al mundo exterior. 
+Por ejemplo un coche para explicar la encapsulación. El coche comparte información pública a través de las luces de freno o intermitentes para indicar los giros (interfaz pública). Por el contrario, tenemos la interfaz interna, que sería el mecanismo propulsor del coche, que está oculto bajo el capó. Cuando se conduce un automóvil es necesario indicar a otros conductores tus movimientos, pero no exponer datos privados sobre el tipo de carburante o la temperatura del motor, ya que son muchos datos, lo que confundiría al resto de conductores.
+
+    *La abstracción
+      La abstracción es cuando el usuario interactúa solo con los atributos y métodos seleccionados de un objeto, utilizando herramientas simplificadas de alto nivel para acceder a un objeto complejo.
+
+    *La herencia
+      La herencia define relaciones jerárquicas entre clases, de forma que atributos y métodos comunes puedan ser reutilizados. Las clases principales extienden atributos y comportamientos a las clases secundarias. A través de la definición en una clase de los atributos y comportamientos básicos, se pueden crear clases secundarias, ampliando así la funcionalidad de la clase principal y agregando atributos y comportamientos adicionales.
+
+    *El polimorfismo
+      El polimorfismo consiste en diseñar objetos para compartir comportamientos, lo que nos permite procesar objetos de diferentes maneras. Es la capacidad de presentar la misma interfaz para diferentes formas subyacentes o tipos de datos. El polimorfismo permite que el mismo método ejecute diferentes comportamientos de dos formas: anulación de método y sobrecarga de método.

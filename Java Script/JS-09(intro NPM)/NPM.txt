@@ -1,0 +1,43 @@
+*Explicar NPM
+*Crear un nuevo proyecto NPM
+*Explicar la estructura del archivo package.json
+*Agregar dependencias a un proyecto npm
+*Agregar y ejecutar comandos a un archivo package.json
+*Instalar y utilizar a la biblioteca de cliente HTTP de Axios
+
+En el ámbito laboral hay empresas que trabajan en Java Vanilla (sin packages) con puro lenguaje JS
+Pero hay otras que sí trabajan con librerías, framewords.
+
+NPM tiene mucho que ver con librerías.
+*NodeJS (entorno de ejecución de JS)
+-JS era limitado, antes de Node.js solo se creaban scripts para ejecutarse en el lado del cliente.
+-La más grande funcionalidad de JS fuera del cliente inició cuando NOse se introdujo en 2009
+-Node.js es un entorno de ejecución para JS construído von V8, motor de JS de Chrome.
+https://nodejs.org.en (documentación en header de la pág).
+
+npm
+-Administrador de paquetes para JS
+-Más de 800k paquetes
+-Desarrollo de programas open-source
+-También disponible para código privado
+-Se ejecuta desde una CLI
+
+https://www.turing.com/blog/top-npm-packages-for-node-js-developers/
+
+Componentes de NPM
+1. Sitio web (https://www.npmjs.com)
+2. CLI
+   -Ambiente de línea de comandos en una terminal
+   -Pircipal forma de interactividad con NPM
+3.Registro
+   -Base de datos ública de software JS y meta-información que le rodea.
+
+
+No puedo ejecutar un paquete de npm sin antes instalar los módulos de note, en GitBash con un npm init -y, esto nos crea un archivo "package.json en la carpeta.
+
+luego en GitBash introduzco npm install colors
+crea la carpeta node_modules en la carpeta.
+
+
+El paquete colors en npm, por ejemplo.
+

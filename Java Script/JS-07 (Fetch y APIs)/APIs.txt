@@ -1,0 +1,55 @@
+Una API es un objeto de Java. Application Programming Interface (Interfaz de programación de aplicaciones).
+
+-Son mecanismos que permiten a dos componenetes comunicarse entre sí mediante un conjunto de definiciones y protocolos.
+
+La info recopilada en un frontend se manda al backend y luego se almacena en la base de datos por medio de APIs:
+
+Front => API => Back => API => Base de Datos
+
+Podemos acceder a APIs que ya existan o hacerlas desde ceros. Es lo ideal porque así son específicas a nuestras necesidades.
+
+=EJEMPLO=
+Hay una API del servicio postal de MEX. Cuando colocamos en un formulario nuestro CP, por ejemplo, nos desplega todas las colonias que pertenecen a ese CP gracias a la API que tiene almacenada la información de las colonias.
+
+=APIs web=
+-Audio, Barcode, Bluetooth, CSS Counter, CSS, etc.
+
+=Documentación de APIs web=
+
+https://developer.mozilla.org/es/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+
+https://developer.mozilla.org/es/docs/Web/API
+
+=RESTFul API=
+Una RESET API te permite enviar y extraer datos de una base de datos.
+Métodos http de una RESTFul API:
+-GET
+-POST
+-PUT
+-DELETE
+
+Tienen 3 elementos:
+1. Request (solicitud). Los datos que envías a la API.
+2. Response (respuesta). Los datos que obtengas del servidor después de una solicitud exitosa o fallida.
+3. Header (encabezado). Metadoratos para ayudar al servidor a comprender qué tipo de solicitud se está mandando.
+
+=Sync vs Async=
+sincronía vs asincronía
+En la ejecución de manera secuencial, el orden de ejecución del código es igual al orden de escritura del código. Tiene un sólo hilo de ejecución en cadena.
+En la asíncrona, se pueden ejecutar de manera simultánea y esto lo hace más eficiente en tiempo. Existen multi hilos de ejecución y se pueden ejecutar según el orden que queramos y no neceariamente según el orden de escritura del código.
+-JS permite el bloque del hilo principal para ejecución asíncrona.
+-Permite que otras tareas se ejecuten mientras se espera que se complete la operación asíncrona.
+-Callback y promesas, son funciones que se pasan como argumentos y se ejecutan después de que se completa una operación asíncrona.
+-Las promesas proporcionan una forma más estructurada de manejar operaciones asíncronas y evitar el "callback hell" mediante el encadenamiento de .then() y .catch().
+
+Fetch API
+Trabajar con promesas es perdirle a un servidor/BD cierta info. Habrá dos respuestas posibles:
+1. Que mande la info (mi código está bien definido)
+2. Que no la mande (mi código tiene un error, hubo un error en el servidor).
+Fetch API nos permite ejecutar algo si recibimos la información, si no, nos manda un error.
+Se diferencía de un if else porque aquí no toma decisiones, sino que hay o no hay un error.
+
+Un API de github para ver datos del usuario es:
+https://api.github.com/users/(NOMBRE DE USUARIO)
+
+
