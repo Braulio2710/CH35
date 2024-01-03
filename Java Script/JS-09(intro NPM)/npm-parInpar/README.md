@@ -18,10 +18,11 @@ Me guiará a través de una serie de pasos donde me solicite información relaci
 import determinarParImpar from "./modules/parimpar.js";
 ```
 7. Configurar el `"type": "module"` en el archivo `package.json`
-8. Ejecutamos el programa desde el entorno de nodejs con el comando
+8. Ejecutamos el programa desde el entorno de nodejs con el comando:
 ```sh
 node index.js
 ```
+   para que nos muestre el resultado de si los números son pares o impares.
 
 ## Publicar package en npm
 
