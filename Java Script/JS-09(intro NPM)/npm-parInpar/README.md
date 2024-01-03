@@ -10,7 +10,7 @@ Me guiará a través de una serie de pasos donde me solicite información relaci
 > - package.json
     - Contiene info sobre el proyecto-módulo que vamos a crear. Son un estándar de nodejs para facilitar la estructura y ejecución dentro del entorno de ejecución y de esta manera porder compartirlo a través del sitio (https://www.npmjs.com)
     - La información se estructura como objeto de JS con notación JSON. (Sólo con notación JSON los servidores entienden lo que les estamos mandando, la traduce de JS  lenguaje servidor).
-3. Creaer una carpeta llamada `modules` en donde vivirá nuestro script.
+3. Crear una carpeta llamada `modules` en donde vivirá nuestro script.
 4. Dentro de `modules` crear el script (.js) con el nombre `parimpar.js`
 5. Crear la función del script y exportarlo con `export default`
 6. Importar el script desde el archivo `index.js` con `import + function + from + ruta con extensión` e invocamos la función con parámetros.
