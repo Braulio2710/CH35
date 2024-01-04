@@ -1,7 +1,7 @@
 a {
     text-decoration: none;
     font-family: 'Karla', sans-serif;
-    color: darkblue;
+    color: rgb(31, 31, 204);
     font-size: 20px;
     font-weight: 500;
     border: dotted crimson 0.2em;
@@ -52,4 +52,11 @@ body{
     text-align: center;
     padding: 20px;
     width: 250 px;
+}
+
+#number0{
+    height: 15px;
+    padding: 5px;
+    width: 315px;
+    text-align: center;
 }
