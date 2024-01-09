@@ -44,7 +44,8 @@ function App() {
 
       {/*Mi componente MUI o Joy UI*/}
       <Card/>
-      {/* <Buttons/> */}
+      <br></br>
+      <Buttons/>
     </>
     
   )
