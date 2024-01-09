@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Button from './components/Button'
 import Products from './components/Products'
+import Card from './components/Card'
+import Buttons from './components/Buttons'
 
 function App() {
   const imgFashion="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/6142201/1.jpg?2933"
@@ -39,6 +41,10 @@ function App() {
         description="Casual tennis"
         price="$3220"
       />
+
+      {/*Mi componente MUI o Joy UI*/}
+      <Card/>
+      {/* <Buttons/> */}
     </>
     
   )
