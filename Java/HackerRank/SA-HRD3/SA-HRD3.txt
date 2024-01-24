@@ -1,0 +1,51 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+class Result {
+
+    public static void plusMinus(List<Integer> array) {//La función plusMinus en Java podría ser utilizada para calcular la proporción de números positivos, negativos y ceros en un array de enteros.
+        //Inicialización de variables
+        double positivos = 0, negativos = 0, ceros = 0;
+        int totalDatos = array.size();//para tener el divisor y poder sacar el porcentaje de cada tipo de número datos
+        for (int i = 0; i < array.size(); i++) {//i va a iterar sumando uno hasta que llegue al tamaño del array
+            if (array.get(i) > 0) {
+                positivos++;
+            } else if (array.get(i) < 0) {
+                    negativos++;
+            } else {
+                ceros++;
+            }
+        
+        }
+        
+        System.out.println(positivos / totalDatos);
+        System.out.println(negativos / totalDatos);
+        System.out.println(ceros / totalDatos);
+    }
+
+}
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+            .map(Integer::parseInt)
+            .collect(toList());
+
+        Result.plusMinus(arr);
+
+        bufferedReader.close();
+    }
+}
