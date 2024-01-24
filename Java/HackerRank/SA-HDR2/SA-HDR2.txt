@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        //Apertura de nuevo Scanner scr
+        Scanner scr = new Scanner(System.in);
+        int s = scr.nextInt(); //para solicitar la cantidad de series que se desea realizar
+        for (int i=0; i<s; i++){//para s=2 se obtendrán dos valores para a, b y n, respectivamente
+            int a =  scr.nextInt();
+            int b = scr.nextInt();
+            int n = scr.nextInt();
+            
+            int sum = a; //la int sum comienza valiendo el valor de a, y después de cada ciclo se le agrega la int sigElement que es el resultado del Math.pow *b en cada ciclo
+            for (int j = 0; j<n; j++){//para n=5 se realizarán 5 calculos con el .pow
+                int sigElement = (int)Math.pow(2, j) * b; //La función Math.pow() devuelve la base elevada al exponente , esto es, baseexponente. Math.pow(base, exponente)
+                sum += sigElement;
+                System.out.printf("%s ", sum);
+            }
+            if (i < s-1) {//para realizar el cambio de línea una vez que se completa cada serie. Si s=3, i incrementará hasta 3, si son 3 series tendra que hacer 2 saltos de línea.
+                System.out.printf("\n");
+            }
+        }
+        //cierre de scr
+        scr.close();
+    }
+}
